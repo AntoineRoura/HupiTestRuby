@@ -19,7 +19,7 @@ Tâches effectuées :
 		->	Ajout de l'entité ressource (facilitation des CRUD) dans config/routes.rb "resource: notes"
 		->	Génération automatique controller : "generate note controller"
 		->	Ajout des 'partial' notes et notes_form dans app/views/articles/show.html.erb
-		->	Ajout fonctionnalité "delete" avec authentification )
+		->	Ajout fonctionnalité "delete" avec authentification (log:admin/psswd:password))
 - Ajout de la fonction Article.computeMeanNotes appelée dans la vue app/views/articles/show.html.erb
 - Developpement de trois tests unitaires grâce à RSPEC* + Utilisation de FactoryBot par moment:
 	 1) Test de la persistance d'une note correcte
