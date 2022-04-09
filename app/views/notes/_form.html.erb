@@ -1,0 +1,14 @@
+##
+#html partial for note form
+#
+
+<%= form_with model: [ @article, @article.notes.build ] do |form| %>
+  <p>
+    <%= form.label :score %><br>
+    <%= form.number_field :score, step: :any %>
+  </p>
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
+
